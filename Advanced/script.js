@@ -11,9 +11,9 @@ const add = (...input) => {
         ret += Number(vars);
     }
     return ret;
-}
+};
 
-let sum1 = add(a, b, c, d, e);
+const sum1 = add(a, b, c, d, e);
 
 var f = '1';
 var g = 15;
@@ -24,11 +24,11 @@ const multiply = (...input) => {
     let ret = 1;
     for (const vars of input) {
         ret *= Number(vars);
-    }
+    };
     return ret;
-}
+};
 
-let sum2 = multiply(f, g, h, i);
+const sum2 = multiply(f, g, h, i);
 
 alert(`The result of ${sum1} divided by ${sum2} is ${sum1/sum2}`);
 

@@ -1,5 +1,5 @@
 // Exercise 1
-const arrE1 = ['Tesla', 'Audi', 'Renault', 'Volvo', 'Mazda', 'Fiat', 'Ferrari']
+const arrE1 = ['Tesla', 'Audi', 'Renault', 'Volvo', 'Mazda', 'Fiat', 'Ferrari'];
 arrE1.sort();
 console.log('Exercise 1\n'+ arrE1);
 

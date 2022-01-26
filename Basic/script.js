@@ -1,7 +1,7 @@
 const text1 = "Hi my name is Martin";
 const text2 = "Hello from the browser";
 const age = 25;
-const text3 = " and I'm " + age + " years old"
+const text3 = " and I'm " + age + " years old";
 const array = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
 
 alert(text2);
